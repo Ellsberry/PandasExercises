@@ -3,13 +3,13 @@ import numpy as np
 from pprint import pprint
 
 
-print(np.array.__dir__())
-pprint(np.array.__dir__())
+# print(np.array.__dir__())
+# pprint(np.array.__dir__())
 
 robot_cost = np.array([70, 80, 140])
 robots_sold_by_month = np.array([[30, 40, 20], [20, 25, 20], [10, 30, 20]])
-# print(f"Cost of all robots for months 1, 2, and 3:   {robots_sold_by_month.dot(robot_cost)}", "\n")
-"""
+print(f"Cost of all robots for months 1, 2, and 3:   {robots_sold_by_month.dot(robot_cost)}", "\n")
+
 
 ai = np.array([[1, 2, 3, 4, 5, 6],
                [7, 8, 9, 10, 11, 12],
@@ -36,9 +36,5 @@ i2 = np.array([[0, 0, 0, 0, 0, 1],
                [0, 1, 0, 0, 0, 0],
                [1, 0, 0, 0, 0, 0]])
 
-
-
 print(i2.dot(ai), "\n", "\n")
 print(ai.dot(i2), "\n", "\n")
-
-"""
