@@ -60,7 +60,7 @@ print("Line 59 matrix b1 \n", f"{b1}", "\n")
 print("Line 60 matrix b2 \n", f"{b2}", "\n")
 
 # print the answer to b1 times b2
-print("line 63 b1 times b2 \n", "put method here",  "\n")
+print("line 63 b1 times b2 \n", b1.dot(b2),  "\n")
 
 # print the answer to b2 times b1
-print("line 66 b2 times b1 \n", "put method here",  "\n")
+print("line 66 b2 times b1 \n", b2.dot(b1),  "\n")
