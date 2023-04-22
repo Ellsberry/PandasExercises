@@ -10,7 +10,7 @@ from pprint import pprint
 # robots_sold_by_month = np.array([[30, 40, 20], [20, 25, 20], [10, 30, 20]])
 # print(f"Cost of all robots for months 1, 2, and 3:   {robots_sold_by_month.dot(robot_cost)}", "\n")
 #
-
+"""
 a_matrix = np.array([[1, 2, 3, 4, 5, 6],
                     [7, 8, 9, 10, 11, 12],
                     [13, 14, 15, 16, 17, 18],
@@ -52,3 +52,15 @@ print(f"Line  41 a_matrix dot rc_matrix \n", a_matrix.dot(rc_matrix), "\n", "\n"
 # print(f"Line 53 g1 \n", f"{g1}", "\n", "\n")
 # print(f"Line 54 g2 \n", f"{g2}", "\n", "\n")
 # print(f"Line 55 b2 \n", g1.dot(g2))
+"""
+
+b1 = np.array([[1, 2, 3], [2, 1, 4], [3, 2, 1]])
+b2 = np.array([[3, 4, 5], [4, 1, 2], [1, 1, 1]])
+print("Line 59 matrix b1 \n", f"{b1}", "\n")
+print("Line 60 matrix b2 \n", f"{b2}", "\n")
+
+# print the answer to b1 times b2
+print("line 63 b1 times b2 \n",  "\n")
+
+# print the answer to b2 times b1
+print("line 66 b2 times b1 \n",  "\n")
