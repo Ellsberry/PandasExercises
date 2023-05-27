@@ -69,7 +69,7 @@ for i in range(last):
     mistery[i][i-1] = 1
 
 print(mistery, "\n")
-print(mistery.dot(b3), "\n")
+# print(mistery.dot(b3), "\n")
 # print(b3.dot(mistery), "\n")
 # print(b3.dot(mistery).dot(mistery), "\n")
 
